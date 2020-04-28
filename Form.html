@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fair Share</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h1>Know your share</h1>
+    <div class ="welcome">
+    <p>Welcome</p>
+    </div>
+    <form action="http://localhost/cgi-bin/fairShare.sh" method="post">
+        <label for ="fairShareInput">
+            Enter your command sequence terminated by "end".
+        </label><br><br>
+        <textarea id="fairShareInput" cols="65"
+        name="commands" placeholder="Enter your command sequence here."></textarea>
+        <br>
+        <p>
+        <div class ="button">
+        <input type="submit" value="Submit Form" id="fairShareInput">
+        <input type="reset" value="Clear Form" id="fairShareInput"></p>
+        </div>
+    </form>
+</body>
+</html>
